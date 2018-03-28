@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13196"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13771"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -674,7 +674,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="swift_simple_sidebar" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="swift_macos_sidebar" customModuleProvider="target"/>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -733,7 +733,7 @@
         <!--Sidebar View Controller-->
         <scene sceneID="CGG-UW-wVV">
             <objects>
-                <viewController id="IPi-NK-tqr" customClass="SidebarViewController" customModule="swift_simple_sidebar" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="IPi-NK-tqr" customClass="SidebarViewController" customModule="swift_macos_sidebar" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="1Rh-RE-Ugu">
                         <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -742,7 +742,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="200" height="262"/>
                                 <clipView key="contentView" drawsBackground="NO" id="sAW-GG-wCB">
                                     <rect key="frame" x="0.0" y="0.0" width="200" height="262"/>
-                                    <autoresizingMask key="autoresizingMask"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <outlineView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" selectionHighlightStyle="sourceList" multipleSelection="NO" autosaveColumns="NO" rowSizeStyle="automatic" viewBased="YES" indentationPerLevel="14" outlineTableColumn="moM-op-dBW" id="qd2-Vq-nCf">
                                             <rect key="frame" x="0.0" y="0.0" width="200" height="262"/>

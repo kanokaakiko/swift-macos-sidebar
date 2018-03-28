@@ -74,9 +74,9 @@ extension SidebarViewController: NSOutlineViewDataSource {
       }
       
       if windowFocused && rowView.isSelected {
-        rowView.backgroundColor = NSColor(red: 0.99, green: 0.88, blue: 0.55, alpha: 1)
+        rowView.backgroundColor = #colorLiteral(red: 0.9900000095, green: 0.8799999952, blue: 0.6499999762, alpha: 1) // Xcode 9 asset colours
       } else if rowView.isSelected {
-        rowView.backgroundColor = NSColor(red: 0.89, green: 0.89, blue: 0.88, alpha: 1)
+        rowView.backgroundColor = #colorLiteral(red: 0.8899999857, green: 0.8899999857, blue: 0.8799999952, alpha: 1)
       } else {
         rowView.backgroundColor = .clear
       }
